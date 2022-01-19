@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <string.h>
+//#include <stdio.h>
+//#include <string.h>
 //int main()
 //{
 ////数组的初始化
@@ -105,19 +105,19 @@
 //}
 
 
-int main()
-{
-//二维数组在内存中的存储形式
-	int i,j;
-	int arr[3][4]={{1,2},{3,4,5},{5,6,7}};
-	for(i=0;i<3;i++)
-	{
-		for(j=0;j<4;j++)						
-		{
-			printf("arr[%d][%d] = %p\n",i,j,&arr[i][j]);
-		}
-	}
-	return 0;
+//int main()
+//{
+////二维数组在内存中的存储形式
+//	int i,j;
+//	int arr[3][4]={{1,2},{3,4,5},{5,6,7}};
+//	for(i=0;i<3;i++)
+//	{
+//		for(j=0;j<4;j++)						
+//		{
+//			printf("arr[%d][%d] = %p\n",i,j,&arr[i][j]);
+//		}
+//	}
+//	return 0;
 //结果
 //arr[0][0] = 00F3FB38
 //arr[0][1] = 00F3FB3C

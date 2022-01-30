@@ -17,3 +17,24 @@
 //		goto again;
 //	return 0;
 //}
+
+char is_swap(char a[], int sz,int i)
+{
+	for (i = 0; i < sz; i++)
+	{
+		printf("%c",a[sz-1-i]);
+	}
+	return 0;
+}
+int main()
+{
+//写一个函数，让用户输入的字符串逆序
+	int i = 0;
+	char a[200] = { 0 };
+	printf("请输入一串字符:");
+	scanf("%[^\n]", &a);
+	int sz = strlen(a);
+	char b = '0';
+	b = is_swap(a, sz, i);
+	return 0;
+}
